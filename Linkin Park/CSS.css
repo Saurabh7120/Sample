@@ -1,0 +1,114 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background-image: url("Images/bglogo.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+
+nav a{
+  padding: 0;
+}
+
+.nav-item{
+  margin-right: 60px;
+  font-size: 20px;
+  font-family: 'Anton', sans-serif;
+}
+
+#video{
+  position: relative;
+  top: 550px;
+  background-image: url("Images/video.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.embed-responsive{
+  width: 50%;
+  display: inline-block;
+  position: relative;
+  left: 380px;
+}
+
+#chester{
+  margin-bottom: 0;
+  position: relative;
+  top: 100px;
+  border-bottom: 2px black solid;
+  border-top: 2px black solid;
+  background-color: rgba(243,156,18,0.9);
+}
+
+span{
+  position: relative;
+  right:20px;
+  font-family: 'Poiret One', cursive;
+  color: inherit;
+  font-size: 40px;
+}
+
+.col-6 p{
+  position: relative;
+  width: 76.1%;
+  left: 180px;
+  top: 80px;
+  font-size: 50px;
+  font-family: 'Cookie', cursive;
+  color: inherit;
+}
+
+#photo{
+  position: relative;
+  top: 900px;
+  background-color: rgba(23,32,42,0.9);
+  background-blend-mode: overlay;
+}
+
+
+.footer img{
+  margin: 20px;
+  background-color: white;
+}
+
+.footer{
+  background-color: black;
+  width: auto;
+  position: relative;
+  top:1800px;
+}
+
+#shop{
+  position: relative;
+  top: 1200px;
+  background-color: rgba(213, 216, 220, 0.9)
+}
+
+#about{
+  background-image: url(Images/photo7.jpg);
+  background-size: cover;
+  position: relative;
+  top: 1500px;
+}
+
+blockquote p{
+  padding: 150px;
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+blockquote p span{
+  font-size: 90%;
+  background-color: black;
+  color: white;
+  font-family: 'Shadows Into Light', cursive;
+  position: relative;
+  left:2px;
+
+}
